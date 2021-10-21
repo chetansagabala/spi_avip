@@ -35,7 +35,6 @@ class master_driver_proxy extends uvm_driver;
 endclass : master_driver_proxy
 //--------------------------------------------------------------------------------------------
 // Construct: new
-//
 // Parameters:
 //  name - master_driver_proxy
 //  parent - parent under which this component is created
