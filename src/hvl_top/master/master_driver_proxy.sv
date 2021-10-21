@@ -33,7 +33,6 @@ class master_driver_proxy extends uvm_driver;
   //extern virtual task run_phase(uvm_phase phase);
 
 endclass : master_driver_proxy
-
 //--------------------------------------------------------------------------------------------
 // Construct: new
 //
@@ -60,6 +59,7 @@ function void master_driver_proxy::build_phase(uvm_phase phase);
 //      end 
   super.build_phase(phase);
 endfunction : build_phase
+
 
 //--------------------------------------------------------------------------------------------
 // Function: connect_phase
